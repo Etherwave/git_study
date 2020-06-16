@@ -1,22 +1,47 @@
-# git_study
+# git初始化本地仓库，克隆远程仓库
 
-git的ssh配置
+通常有两种获取 Git 项目仓库的方式：
 
-git的markdown文档的图片如何链接
+1.将尚未进行版本控制的本地目录转换为 Git 仓库；
 
-git config
+2.从其它服务器 克隆 一个已存在的 Git 仓库。
 
-git clone
+两种方式都会在你的本地机器上得到一个工作就绪的 Git 仓库。
 
-git add .
+##在已存在目录中初始化仓库
 
-git commit -m ""
+首先cd到项目文件夹，然后
+```
+git init
+```
+该命令将创建一个名为 .git 的子目录，这个子目录含有你初始化的 Git 仓库中所有的必须文件，这些文件是 Git 仓库的骨干。 但是，在这个时候，我们仅仅是做了一个初始化的操作，你的项目里的文件还没有被跟踪。
 
-git push
+如果在一个已存在文件的文件夹（而非空文件夹）中进行版本控制，你应该开始追踪这些文件并进行初始提交。 可以通过 git add 命令来指定所需的文件来进行追踪，然后执行 git commit ：
 
-分支等
+```
+git add *.c
+git add LICENSE
+git commit -m 'initial project version'
+```
 
-每一部分以一个分支的形式做笔记
+稍后我们再逐一解释这些指令的行为。 现在，你已经得到了一个存在被追踪文件与初始提交的 Git 仓库。
+
+##克隆现有的仓库
+
+如果你想获得一份已经存在了的 Git 库的拷贝，比如说，你想为某个开源项目贡献自己的一份力，这时就要用到 git clone 命令。
+
+例如
+```
+git clone https://github.com/Etherwave/git_study
+```
+
+如果你想在克隆远程仓库的时候，自定义本地仓库的名字，你可以通过额外的参数指定新的目录名：
+
+```
+git clone https://github.com/Etherwave/git_study my_git_study
+```
+
+这会执行与上一条命令相同的操作，但目标目录名变为了 mylibgit。
 
 
 
