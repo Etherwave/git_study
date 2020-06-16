@@ -1,22 +1,15 @@
-# git_study
+# git的ssh配置
 
-git的ssh配置
+首先使用命令
 
-git的markdown文档的图片如何链接
+```
+ssh-keygen
+```
 
-git config
+生成一个密匙和一个公匙 
 
-git clone
+在C:\\Users\\***\\.ssh下面你会看到 
 
-git add .
+id_rsa 和 id_rsa.pub 让后我们去
 
-git commit -m ""
-
-git push
-
-分支等
-
-每一部分以一个分支的形式做笔记
-
-
-
+![图片说明](test_pic.jpg "插入的图片") 
