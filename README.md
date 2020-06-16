@@ -1,22 +1,15 @@
-# git_study
+# git的markdown文档的图片如何链接
 
-git的ssh配置
+直接根据当前项目写路径就好
 
-git的markdown文档的图片如何链接
+例如我们直接把car.jpg放到当前分支
 
-git config
+那么就可以这样引用
 
-git clone
+```
+![](car.jpg)
+```
 
-git add .
+如同
 
-git commit -m ""
-
-git push
-
-分支等
-
-每一部分以一个分支的形式做笔记
-
-
-
+![](car.jpg)
