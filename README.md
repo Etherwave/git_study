@@ -12,4 +12,6 @@ ssh-keygen
 
 id_rsa 和 id_rsa.pub 让后我们去
 
-![图片说明](test_pic.jpg "插入的图片") 
+![图片说明](ssh.png "ssh") 
+
+然后把id_rsa.pub这个公匙粘贴进去就好。
