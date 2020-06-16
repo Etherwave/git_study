@@ -13,3 +13,13 @@
 如同
 
 ![](car.jpg)
+
+如果图片实在某个文件夹中，那么我们可以这样写
+
+```
+![](img/hello/time.jpg)
+```
+
+如图
+
+![](img/hello/time.jpg)
