@@ -1,14 +1,23 @@
-# git_study
+# git创建分支
 
-git的ssh配置
+第一种方法
+创建分支并转到该分支
+```
+git checkout -b iss53
+```
 
-git的markdown文档的图片如何链接
+第二种方法
+先创建分支，然后转到该分支
+```
+git branch iss53
+git checkout iss53
+```
 
-git仓库的初始化与克隆
+在git commit完成该分支后
 
-git创建分支等
-
-每一部分以一个分支的形式做笔记
-
+在远程增加该分支
+```
+git push --set-upstream origin iss53
+```
 
 
