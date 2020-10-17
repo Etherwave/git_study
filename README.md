@@ -1,14 +1,13 @@
 # git_study
+git 上传空文件夹 需要添加一个.gitkeep文件
 
-git的ssh配置
+内容如下：
 
-git的markdown文档的图片如何链接
-
-git仓库的初始化与克隆
-
-git创建分支等
-
-每一部分以一个分支的形式做笔记
+```
+# Ignore everything in this directory
+*
+# Except this file !.gitkeep
+```
 
 
 
